@@ -35,7 +35,7 @@ int main()
 
 		if (array[2] != "c:/") {
 			system("cls");
-			std::cout << "Digite o local em que o vcpkg foi instalado" << std::endl;
+			std::cout << "\033[1;34m Digite o local em que o vcpkg foi instalado" << std::endl;
 			std::cin >> array[2];
 		}
 
