@@ -1,3 +1,11 @@
+/*
+* ================================================================================================================
+* Discord : Sr. Naja#8516
+* Ferramenta dependentes : winget
+* Sistema operacional requerido : windows 10, windows 11, ou algum sistema operacional que de suporte ao winget 
+* ================================================================================================================
+*/
+
 #include <iostream>
 #include <Windows.h>
 
