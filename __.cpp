@@ -15,7 +15,7 @@ int main()
 	if (array[0] == "nao") {
 		while (array[1] != "nao" && array[1] != "sim") {
 			system("cls");
-			std::cout << "Prefere instalar o git em algum diretorio espesifico ? (sim) ou (nao)" << std::endl;
+			std::cout << "Prefere instalar o git em algum diretorio especifico ? (sim) ou (nao)" << std::endl;
 			std::cin >> array[1];
 		}
 
