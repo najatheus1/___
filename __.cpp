@@ -5,7 +5,16 @@ typedef std::string s;
 
 int main()
 {
-	s array[7]; 
+	s array[7]; /*
+				array[0] = verifica se o usuario tem o git instalado no computador
+				array[1] = verifica se o usuario quer o git instalar em algum diretório especifico
+				array[2] = verifica se o usuario tem o vcpkg instalado no computador
+				array[3] = verifica se o usuario quer o vcpkg instalar em algum diretório especifico
+				array[4] = local em que as ferramentas foi instaladas ( git, vcpkg )
+				array[5] = verifica qual projeto que o usuario quer instalar as biblioteca ( tfs, otc )
+				array[6] = verifica qual arquitetura que o usuario deseja instalar as biblioteca ( x32, x64 )
+				*/
+
 	while (array[0] != "sim" && array[0] != "nao") {
 		system("cls");
 		std::cout << "\033[1;34m Voce ja tem instalado git em seu computador ? (sim) ou (nao)" << std::endl;
